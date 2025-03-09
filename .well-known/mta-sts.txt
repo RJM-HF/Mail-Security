@@ -1,4 +1,4 @@
 version: STSv1
-mode: enforce
+mode: none
 mx: homefortress-space.mail.protection.outlook.com
 max_age: 86400
