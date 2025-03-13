@@ -1,1 +1,9 @@
-testing-phase
+Contact: mailto:mailsec@homefortress.space
+Expires: 2030-02-10T15:17:00.000Z
+Encryption: https://mta-sts.homefortress.space/.well-known/csaf/pgp-key.txt
+Acknowledgments: https://thanks.homefortress.space
+Preferred-Languages: en
+Canonical: https://mta-sts.homefortress.space/.well-known/security.txt
+Policy: https://mailsec.homefortress.space/security-policy
+Hiring: https://www.homefortress.space/not-happening
+CSAF: https://mta-sts.homefortress.space/.well-known/csaf/waddles-metadata.json
