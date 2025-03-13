@@ -1,14 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mail Security</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mail Security</title>
+  <style>
+    /* Full-page background with a subtle gradient */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1a1a1a, #333333);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+    /* Container for centering content */
+    .container {
+      text-align: center;
+      padding: 30px;
+      border: 2px solid rgba(255, 0, 0, 0.8);
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+      max-width: 90%;
+    }
+    /* Glitch effect for the header */
+    h1.glitch {
+      position: relative;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      animation: flicker 3s infinite;
+    }
+    h1.glitch::before,
+    h1.glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    h1.glitch::before {
+      left: 2px;
+      text-shadow: -2px 0 red;
+      animation: glitch1 2s infinite linear alternate-reverse;
+    }
+    h1.glitch::after {
+      left: -2px;
+      text-shadow: 2px 0 blue;
+      animation: glitch2 3s infinite linear alternate-reverse;
+    }
+    @keyframes glitch1 {
+      0%   { clip: rect(44px, 9999px, 56px, 0); transform: translate(2px, -2px); }
+      20%  { clip: rect(12px, 9999px, 72px, 0); transform: translate(-2px, 0); }
+      40%  { clip: rect(20px, 9999px, 36px, 0); transform: translate(2px, 2px); }
+      60%  { clip: rect(64px, 9999px, 80px, 0); transform: translate(-2px, -2px); }
+      80%  { clip: rect(12px, 9999px, 48px, 0); transform: translate(2px, 0); }
+      100% { clip: rect(32px, 9999px, 68px, 0); transform: translate(0, 2px); }
+    }
+    @keyframes glitch2 {
+      0%   { clip: rect(24px, 9999px, 40px, 0); transform: translate(-2px, 2px); }
+      20%  { clip: rect(60px, 9999px, 76px, 0); transform: translate(2px, 0); }
+      40%  { clip: rect(20px, 9999px, 50px, 0); transform: translate(-2px, -2px); }
+      60%  { clip: rect(30px, 9999px, 60px, 0); transform: translate(2px, 2px); }
+      80%  { clip: rect(40px, 9999px, 80px, 0); transform: translate(-2px, 0); }
+      100% { clip: rect(24px, 9999px, 40px, 0); transform: translate(2px, -2px); }
+    }
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+      20%, 24%, 55% { opacity: 0.8; }
+    }
+    /* Style for the pre block (for MTA-STS.txt content) */
+    pre {
+      background: #111;
+      color: #0f0;
+      text-align: left;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      margin-top: 30px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
 </head>
 <body>
-    <h1>Unauthorized Access Strictly Prohibited</h1>
+  <div class="container">
+    <h1 class="glitch" data-text="Unauthorized Access Strictly Prohibited">
+      Unauthorized Access Strictly Prohibited
+    </h1>
     <pre>
-    <!-- Include the contents of your MTS-STS.txt file here -->
+<!-- Include the contents of your MTA-STS.txt file here -->
     </pre>
+  </div>
 </body>
 </html>
