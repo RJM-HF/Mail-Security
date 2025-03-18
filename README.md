@@ -1,8 +1,11 @@
 # <p align=center> HomeFortress </p>
 ## <p align=center> Mail-Security </p>
 
+<center>
+  ![Alt text](https://github.com/RJM-HF/Mail-Security/blob/main/Media/mail-security-banner.png?raw=true)
+</center>
+
 <div align="center">
-![Alt text](https://github.com/RJM-HF/Mail-Security/blob/main/Media/mail-security-banner.png?raw=true)
   
 [![Build Status](https://img.shields.io/badge/build-unknown-lightgrey)](#)
 [![Downloads](https://img.shields.io/badge/download-x-blue)](#)
