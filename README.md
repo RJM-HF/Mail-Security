@@ -14,7 +14,7 @@
   [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
 HomeFortress is our public email security hub.<br>
-Your go-to page for key files that support secure email communications.<br>
+Your go-to page for key files that support secure email communications.<br><br>
 Hosting essential documents and branding assets that help ensure our email systems are authenticated and trusted.
 Our focus is on providing a simple, streamlined resource for anyone needing to verify our email security practices.
 </div>
