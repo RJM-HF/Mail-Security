@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unauthorized Access - HomeFortress</title>
+    <style>
+        /* General Page Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #212121;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: #e74c3c;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #ddd;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Fine Print Section */
+        .fine-print {
+            font-size: 1rem;
+            color: #aaa;
+            margin-top: 30px;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 40px;
+        }
+
+        .button:hover {
+            background-color: #c0392b;
+            transform: scale(1.1);
+        }
+
+        /* Animation for the warning text */
+        .warning {
+            animation: pulse 1.5s infinite;
+        }
+
+        /* Keyframes for animation */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="warning">Unauthorized Access</h1>
+    <p>You do not have permission to access this page.</p>
+
+    <a href="/" class="button">Go Back</a>
+
+    <div class="fine-print">
+        <p>All public-facing pictures and information on this site are strictly for the use of HomeFortress and its intended users within the network. Unauthorized access or use is prohibited and may be subject to legal action.</p>
+    </div>
+
+</body>
+</html>
