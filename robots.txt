@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /  # Block all bots from this subdomain
