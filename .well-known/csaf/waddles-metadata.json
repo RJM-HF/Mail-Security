@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "contact": [
+    {
+      "name": "Security Team",
+      "email": "mailto:mailsec@homefortress.space",
+      "phone": "+27-123-456-7890"
+    }
+  ],
+  "description": "Security advisory metadata for HomeFortress systems",
+  "security_classifications": [
+    "high"
+  ],
+  "policy_uri": "https://mailsec.homefortress.space/security-policy"
+}
