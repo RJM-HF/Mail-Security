@@ -1,9 +1,11 @@
+# Contact information for security issues related to your domain
 Contact: mailto:mailsec@homefortress.space
 Expires: 2030-02-10T15:17:00.000Z
 Encryption: https://mta-sts.homefortress.space/.well-known/csaf/pgp-key.txt
-Acknowledgments: https://thanks.homefortress.space
-Preferred-Languages: en
-Canonical: https://mta-sts.homefortress.space/.well-known/security.txt
+Acknowledgments: https://mailsec.homefortress.space/thanks.html
+Preferred-Languages: en, en-US
+
+# Optional fields
 Policy: https://mailsec.homefortress.space/security-policy
-Hiring: https://www.homefortress.space/not-happening
+Canonical: https://mta-sts.homefortress.space/.well-known/security.txt
 CSAF: https://mta-sts.homefortress.space/.well-known/csaf/waddles-metadata.json
