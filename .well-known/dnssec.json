@@ -1,0 +1,43 @@
+{
+  "domain": "homefortress.space",
+  "dnssec": {
+    "enabled": true,
+    "provider": "Cloudflare",
+    "signed_zone": true,
+    "algorithm": "ECDSAP256SHA256",
+    "ds_records": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "3BDD5E2C1935FC10162ABBB6C4330409F6EE623D8857771D1C902DE3C1DCA8F6"
+      }
+    ],
+    "dnskey_flags": [
+      {
+        "flag": 256,
+        "description": "ZSK (Zone Signing Key)"
+      },
+      {
+        "flag": 257,
+        "description": "KSK (Key Signing Key)"
+      }
+    ],
+    "ksk_info": {
+      "key_tag": 12345,
+      "algorithm": 13,
+      "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+ KkxLbxILfDLUT0rAK9iUzy1L53eKGQ=="
+    },
+    "zsk_info": {
+      "key_tag": 67890,
+      "algorithm": 13,
+      "public_key": "oJMRESz5E4gYzS/q6XDrvU1qMPYIjCWzJaOau8XNEZeqCYKD5ar0IRd8 KqXXFJkqmVfRvMGPmM1x8fGAa2XhSA=="
+    },
+    "last_updated": "2025-03-23T00:00:00Z",
+    "validated_by": [
+      "1.1.1.1",
+      "8.8.8.8",
+      "9.9.9.9"
+    ]
+  }
+}
