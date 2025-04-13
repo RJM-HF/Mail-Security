@@ -6,6 +6,6 @@ Acknowledgments: https://mailsec.homefortress.space/thanks.html
 Preferred-Languages: en, en-US
 
 # Optional fields
-Policy: https://mailsec.homefortress.space/security-policy
+Policy: https://mailsec.homefortress.space/security-policy.html
 Canonical: https://mta-sts.homefortress.space/.well-known/security.txt
 CSAF: https://mta-sts.homefortress.space/.well-known/csaf/waddles-metadata.json
